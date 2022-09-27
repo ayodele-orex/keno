@@ -194,7 +194,7 @@ color: #fff;
 .text{
   color: #fff;
   border-radius: 100%;
-  padding: 1px 6px;
+  padding: 1px 10px;
   background: #BF0068;
  align-items: center;
   display: flex;
@@ -1407,7 +1407,7 @@ margin-bottom: 5vw;
   margin: 2px;
 }
 .text {
-  padding: 2px 5px;
+  padding: 0px 5px;
   font-size: 2.8vw;
 }
 .nav > .nav-links > div > p {
