@@ -1,19 +1,22 @@
 * {
     box-sizing: border-box;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
   body {
     margin: 0px;
     background-color: #01161D;
-    font-family: 'segoe ui';
+    font-family: "Muli",sans-serif;
   }
   
   
   .nav {
-    height: 50px;
-    width: 100%;
+    height: 83px;
+    width: 90%;
     position: relative;
-    margin: 2.4vw 0vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #405875;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   
   .nav > .nav-header {
@@ -124,6 +127,7 @@ color: #fff;
     .nav{
         top: 0;
         display: flex;
+        align-items: center;
     }
     .nav > .nav-btn {
       display: inline-block;
@@ -153,7 +157,6 @@ color: #fff;
 /* section2 */
 
 .lay-point{
-  border-top: 1px solid #405875;
    justify-content: center;
    width: 90%;
   margin-left: auto;
@@ -162,7 +165,7 @@ color: #fff;
     display: flex;
     /* flex-wrap: wrap; */
    align-items: center;
-   background-color: #2E4051;
+   background-color: #2E40514D;
    border-radius:10px ;
 
 }
@@ -180,9 +183,9 @@ color: #fff;
   font-size: 18px;
   color: #fff;
   background-color: #415364;
-  margin: 7px;
-  width: 6.3vw;
-  height: 3.6vw;
+  margin: 3px;
+  width: 7vw;
+  height: 2.7vw;
   padding: 11px;
   display: flex; 
   align-items: center;
@@ -192,7 +195,7 @@ color: #fff;
 .text{
   color: #fff;
   border-radius: 100%;
-  padding: 0px 7px;
+  padding: 1px 6px;
   background: #BF0068;
  align-items: center;
   display: flex;
@@ -209,7 +212,7 @@ color: #fff;
 .points > button{
   font-size: 15px;
   color: #fff;
-  background-color: #BF0068;
+  background-color: #C9036E;
   margin-left: 17px;
   width: 12vw;
   height: 62px;
@@ -360,17 +363,199 @@ color: #fff;
 
 .colors{
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.subring1{border: 6px solid #2FEAEA;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring2{border: 6px solid #27F361;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring3{border: 6px solid #F2EA24;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring4{border: 6px solid #F26413;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring5{border: 6px solid #F50E0E;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring6{border: 6px solid #CE0BD2;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring7{border: 6px solid #057F27;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring8{border: 6px solid #0D86F7;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.subring9{border: 6px solid #8C8488;
+  margin: 5px;
+  height: 2vw;
+  padding: 23px;
+  width: 2vw;
+  border-radius: 100%;
+}
+.ring1{
+  border: 6px solid #2FEAEA;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring2{background-color: #2FEAEA;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+.ring3{
+  border: 6px solid #27F361;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring4{background-color:#27F361;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+.ring5{
+  border: 6px solid #F2EA24;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring6{background-color: #F2EA24;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
 }
 
-.colors img{
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 4.5vw;
-  
+.ring7{
+  border: 6px solid #F26413;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
 }
+.ring8{
+  background-color: #F26413;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.ring9{
+  border: 6px solid #F50E0E;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring10{background-color: #F50E0E;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.ring11{
+  border: 6px solid #CE0BD2;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring12{background-color: #CE0BD2;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.ring13{
+  border: 6px solid #057F27;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring14{background-color: #057F27;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.ring15{
+  border: 6px solid #0D86F7;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring16{background-color: #0D86F7;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+.ring17{
+  border: 6px solid #8C8488;
+  padding: 3px;
+  border-radius: 100%;
+  background-color: #01161D;
+}
+.ring18{background-color: #8C8488;
+  margin: 5px;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  padding: 10px;
+}
+
 
 
 
@@ -416,26 +601,64 @@ color: #fff;
       }
 
       .points > button {
-        width: 19vw;
-        height: 70px;
+        width: 21vw;
+        height: 39px;
       }
       
       .icon {
-        font-size: 22px;
+        font-size: 19px;
         padding: 4px;
         width: 15vw;
-        height: 57px;
+        height: 35px;
         margin: 3px;
     }
     
     .text {
-      padding: 6px 10px;
+      padding: 3px 7px;
       margin-right: 2vw;
       font-size: 1.8vw;
     }
     .points{
         text-align: center;
     }
+    .subring1 {
+      border: 5px solid #2FEAEA;
+      padding: 17px;
+  }
+  .subring2 {
+    border: 5px solid #27F361;
+    padding: 19px;
+}
+.subring3 {
+  border: 5px solid #F2EA24;
+  padding: 17px;
+}
+.subring4 {
+  border: 5px solid #F26413;
+  padding: 17px;
+}
+.subring5 {
+  border: 5px solid #F50E0E;
+  padding: 17px;
+}
+.subring6 {
+  border: 5px solid #CE0BD2;
+  padding: 17px;
+}
+.subring7 {
+  border: 5px solid #057F27;
+  padding: 17px;
+}
+.subring8 {
+  border: 5px solid #0D86F7;
+  padding: 17px;
+}
+.subring9 {
+  border: 5px solid #8C8488;
+  padding: 17px;
+}
+
+
 }
 
 @media (max-width:600px) {
@@ -487,6 +710,44 @@ color: #fff;
   margin: 5px;
 }
 
+.subring1 {
+  border: 4px solid #2FEAEA;
+  padding: 13px;
+}
+.subring2 {
+border: 4px solid #27F361;
+padding: 13px;
+}
+.subring3 {
+border: 4px solid #F2EA24;
+padding: 13px;
+}
+.subring4 {
+border: 4px solid #F26413;
+padding: 13px;
+}
+.subring5 {
+border: 4px solid #F50E0E;
+padding: 13px;
+}
+.subring6 {
+border: 4px solid #CE0BD2;
+padding: 13px;
+}
+.subring7 {
+border: 4px solid #057F27;
+padding: 13px;
+}
+.subring8 {
+border: 4px solid #0D86F7;
+padding: 13px;
+}
+.subring9 {
+border: 4px solid #8C8488;
+padding: 13px;
+}
+
+
 }
 
 @media (max-width:400px) {
@@ -497,10 +758,79 @@ color: #fff;
   height: 5vw;
 }
 
+
+.subring1 {
+  padding: 10px;
+}
+.subring2 {
+padding: 10px;
+}
+.subring3 {
+padding: 10px;
+}
+.subring4 {
+padding: 10px;
+}
+.subring5 {
+padding: 10px;
+}
+.subring6 {
+padding: 10px;
+}
+.subring7 {
+padding: 10px;
+}
+.subring8 {
+padding: 10px;
+}
+.subring9 {
+padding: 10px;
+}
+
+}
+
+@media (max-width:300px) {
+  .subring1 {
+    padding: 5px;
+  }
+  .subring2 {
+  padding: 5px;
+  }
+  .subring3 {
+  padding: 5px;
+  }
+  .subring4 {
+  padding: 5px;
+  }
+  .subring5 {
+  padding: 5px;
+  }
+  .subring6 {
+  padding: 5px;
+  }
+  .subring7 {
+  padding: 5px;
+  }
+  .subring8 {
+  padding: 5px;
+  }
+  .subring9 {
+  padding: 5px;
+  }
+  .even div {
+    width: 132px;
+  }
+
 }
 
 
+@media (max-width:350px) {
 
+  .even div {
+    width: 132px;
+  }
+
+}
 
 
 
@@ -558,7 +888,7 @@ color: #fff;
 .children-container {
   width: 422px;
   height: 54px;
-  background-color: #3E5055;
+  background-color: #05284A;
   border-radius: 7px;
   display: inline-flex;
   margin: 10px;
@@ -621,7 +951,7 @@ background-color: #fff;
 }
 
 .stakes-contents{
-  background-color: #1F2E33;
+  background-color: #2E40514D;
   border-radius: 4px;
 }
 
@@ -646,9 +976,18 @@ height: 44px;
 }
 .stakes-contents .amount ul span.active {
   background-color: #BF0068;
+
   color: white;
 }
 
+.hover.active {
+  background-color: #BF0068;
+  color: white;
+}
+.call.active {
+  background-color: #BF0068;
+  color: white;
+}
 .stakes-contents .amount ul span:first-child{
   margin-left: 0;
 
@@ -774,7 +1113,93 @@ button {
       width: 89vw;
       height: 37px; 
   } 
-    
+  
+.ring1{
+  border: 3px solid #2FEAEA;
+}
+.ring2{ 
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+.ring3{
+  border: 3px solid #27F361;
+
+}
+.ring4{ 
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+.ring5{
+  border: 3px solid #F2EA24; 
+} 
+.ring6{ 
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+
+.ring7{
+  border: 3px solid #F26413;
+ 
+}
+.ring8{
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+.ring9{
+  border: 3px solid #F50E0E;
+
+}
+.ring10{ 
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+
+.ring11{
+  border: 3px solid #CE0BD2;
+
+}
+.ring12{
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+
+.ring13{
+  border: 3px solid #057F27;
+ 
+}
+.ring14{
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+
+.ring15{
+  border: 3px solid #0D86F7;
+ 
+}
+.ring16{
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+}
+.ring17{
+  border: 3px solid #8C8488; 
+}
+.ring18{
+  margin: 1px;
+  height: 1vw;
+  width: 1vw;
+
+}
+    .colors{
+width: 100%;
+    }
 }
 
 
@@ -783,6 +1208,9 @@ button {
 .sub-section .stake2 {
   Width: 100%;
 }
+
+
+
 
 }
 
@@ -803,8 +1231,10 @@ margin: 0 auto;
 }
 
 .sub-rings{
+  width: 70%;
+  margin: 0 auto;
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 margin-bottom: 5vw;
 }
 
@@ -833,7 +1263,8 @@ margin-bottom: 5vw;
 .sub-section .start{
   text-align: start;
 }
-.active, .btn:hover {
+.active {
+  cursor: pointer;
   background-color: #BF0068;
   color: white;
 }
@@ -853,6 +1284,7 @@ margin-bottom: 5vw;
   margin: 0 auto;
     Width: 450px;
      margin-top: 60px;
+     padding-bottom: 30px;
      
 }
 
@@ -896,7 +1328,13 @@ margin-bottom: 5vw;
   font-size: 16px;
 }
 
+.inside2 {
+  font-size: 14px;
+}
 
+.inside {
+  font-size: 14px;
+}
   .even button {
     width: 21vw;
     height: 33px;
@@ -913,9 +1351,7 @@ margin-bottom: 5vw;
 .sub-rings img {
   width: 5vw;
 }
-.colors img {
-  width: 5vw;
-}
+
 .odds .magic h3 {
   font-size: 16px;
 }
@@ -958,8 +1394,8 @@ margin-bottom: 5vw;
 
 .points > button {
   font-size: 12px;
-  width: 31vw;
-  height: 10vw;
+  width: 26vw;
+  height: 7vw;
   margin-top: 8px;
 }
 .point-layout {
@@ -972,7 +1408,7 @@ margin-bottom: 5vw;
   margin: 2px;
 }
 .text {
-  padding: 1px 4px;
+  padding: 2px 5px;
   font-size: 2.8vw;
 }
 .nav > .nav-links > div > p {
@@ -1071,7 +1507,7 @@ background: #BF0068;
   font-family: 'trebuchet MS' , 'Lucida sans' , Arial;
   font-size: 14px;
   color: #fff;
-}
+} 
 .footable > tbody > tr {
   height:55px ;
   font-size: 19px;
